@@ -1,0 +1,15 @@
+@use "./base/reset";
+@use "./base/variables" as *;
+@use "./base/fonts";
+@use "./base/mixins" as *;
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  color: goldenrod;
+  font-size: 2.5rem;
+}

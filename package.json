@@ -1,0 +1,19 @@
+{
+  "name": "herhaling",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run dev",
+    "sass": "sass css/style.scss  css/style.css --style=compressed --watch",
+    "dev": "vite --open --host",
+    "build": "vite build",
+    "preview": "vite preview --open --host",
+    "predeploy": "npm run build",
+    "deploy": "surge ./dist syntra-cocktaildb-ikram.surge.sh",
+    "postdeploy": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
